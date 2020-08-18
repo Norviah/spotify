@@ -1,0 +1,11 @@
+# directories
+.build
+.swiftpm
+.xcodeproj
+
+build
+Packages
+xcuserdata
+
+# files
+.DS_Store
