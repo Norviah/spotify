@@ -11,7 +11,7 @@ import ArgumentParser
 struct Position: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the current position in the current track (in seconds)."
+    abstract: "Displays your position in the current track (in seconds)."
   )
 
   /// Prints the artist of the current track.

@@ -11,7 +11,7 @@ import ArgumentParser
 struct Repeat: ParsableCommand {
   static let configuration: CommandConfiguration = CommandConfiguration(
     // Optional abstracts and discussions are used for help output.
-    abstract: "Toggle or set repeat for the current track."
+    abstract: "Toggle or set repeat."
   )
 
   /// The value to set repeat to.

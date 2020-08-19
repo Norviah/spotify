@@ -11,7 +11,7 @@ import ArgumentParser
 struct Length: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the length for the current track (in seconds)."
+    abstract: "Displays the length of the current track (in seconds)."
   )
 
   /// Gets the length for the current track in seconds.

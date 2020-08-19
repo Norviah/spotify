@@ -11,7 +11,7 @@ import ArgumentParser
 struct PlayedCount: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the amount of times the current track has been played."
+    abstract: "Displays the amount of times the current track has been played."
   )
 
   /// Prints the amount of times the current track has been played.

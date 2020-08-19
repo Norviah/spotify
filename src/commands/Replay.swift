@@ -11,7 +11,7 @@ import ArgumentParser
 struct Replay: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Replays the current track from the beginning."
+    abstract: "Replays the current track."
   )
 
   /// Replays the current track to the beginning.

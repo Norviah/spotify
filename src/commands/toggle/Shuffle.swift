@@ -11,7 +11,7 @@ import ArgumentParser
 struct Shuffle: ParsableCommand {
   static let configuration: CommandConfiguration = CommandConfiguration(
     // Optional abstracts and discussions are used for help output.
-    abstract: "Toggle or set shuffle for the current track."
+    abstract: "Toggle or set shuffle."
   )
 
   /// The value to set shuffling to.

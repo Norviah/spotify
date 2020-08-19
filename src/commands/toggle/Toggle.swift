@@ -11,7 +11,7 @@ import ArgumentParser
 struct Toggle: ParsableCommand {
   static let configuration: CommandConfiguration = CommandConfiguration(
     // Optional abstracts and discussions are used for help output.
-    abstract: "Toggle or set various aspects of the current track.",
+    abstract: "Toggle or set various aspects of Spotify.",
 
     // Pass an array to `subcommands` to set up a nested tree of subcommands.
     // With language support for type-level introspection, this could be

@@ -14,7 +14,7 @@ struct GetAlbum: ParsableCommand {
     commandName: "album",
 
     // Optional abstracts and discussions are used for help output.
-    abstract: "Gets the name of the album the current track is from."
+    abstract: "Displays the name of the album the current track is from."
   )
 
   /// Prints the album of the current track.

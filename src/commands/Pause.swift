@@ -11,7 +11,7 @@ import ArgumentParser
 struct Pause: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Pauses playback of the current track."
+    abstract: "Pauses the current track."
   )
 
   /// Pauses playback of the current trask.

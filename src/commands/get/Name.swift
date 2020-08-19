@@ -11,7 +11,7 @@ import ArgumentParser
 struct Name: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the name of the current track."
+    abstract: "Displays the name of the current track."
   )
 
   /// Prints the name of the current track.

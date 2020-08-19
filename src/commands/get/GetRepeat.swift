@@ -14,7 +14,7 @@ struct GetRepeat: ParsableCommand {
     commandName: "repeat",
 
     // Optional abstracts and discussions are used for help output.
-    abstract: "Prints whether repeat is enabled."
+    abstract: "Displays whether repeat is enabled."
   )
 
   /// Prints if repeating is enabled.

@@ -11,7 +11,7 @@ import ArgumentParser
 struct ArtworkURL: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the URL for the current track's album art."
+    abstract: "Displays the URL for the current track's album art."
   )
 
   /// Prints the URL for the current track's album art.

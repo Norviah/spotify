@@ -11,7 +11,7 @@ import ArgumentParser
 struct Vol: ParsableCommand {
   static let configuration: CommandConfiguration = CommandConfiguration(
     // Optional abstracts and discussions are used for help output.
-    abstract: "Controls Spotify's volume.",
+    abstract: "Control Spotify's volume.",
 
     // A more longer description for this command.
     discussion: "If no subcommands are provided, the current volume amount will be printed.",

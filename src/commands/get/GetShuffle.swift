@@ -14,7 +14,7 @@ struct GetShuffle: ParsableCommand {
     commandName: "shuffle",
 
     // Optional abstracts and discussions are used for help output.
-    abstract: "Prints whether shuffle is enabled."
+    abstract: "Displays whether shuffle is enabled."
   )
 
   /// Prints if shuffle is enabled.

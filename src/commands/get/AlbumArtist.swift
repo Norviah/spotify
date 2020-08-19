@@ -11,7 +11,7 @@ import ArgumentParser
 struct AlbumArtist: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the artist of the album the current track is from."
+    abstract: "Displays the artist of the album the current track is from."
   )
 
   /// Prints the artist of the album that the current track is from.

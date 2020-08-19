@@ -11,7 +11,7 @@ import ArgumentParser
 struct DiscNumber: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the disc number of the current track."
+    abstract: "Displays the disc number of the current track."
   )
 
   /// Prints the disc number of the current track.

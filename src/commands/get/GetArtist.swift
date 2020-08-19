@@ -14,7 +14,7 @@ struct GetArtist: ParsableCommand {
     commandName: "artist",
 
     // Optional abstracts and discussions are used for help output.
-    abstract: "Gets the artist of the current track."
+    abstract: "Displays the artist of the current track."
   )
 
   /// Prints the artist of the current track.

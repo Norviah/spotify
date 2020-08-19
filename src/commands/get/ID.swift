@@ -11,7 +11,7 @@ import ArgumentParser
 struct ID: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the current track's ID."
+    abstract: "Displays the current track's ID."
   )
 
   /// Prints the current track's ID.
