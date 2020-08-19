@@ -23,7 +23,7 @@ struct Interface: ParsableCommand {
     version: "v1.0.0",
     
     // An array of subcommands for the cli.
-    subcommands: [Play.self, Skip.self, Prev.self, Replay.self, Quit.self, Pause.self, Vol.self, Toggle.self, Get.self, Jump.self]
+    subcommands: [Play.self, Skip.self, Prev.self, Replay.self, Quit.self, Pause.self, Vol.self, Toggle.self, Get.self, Jump.self, Lyrics.self]
   )
 }
 

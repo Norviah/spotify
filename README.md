@@ -84,6 +84,7 @@ spotify prev                                                    Replays the prev
 spotify replay                                                  Replays the current track.
 spotify quit                                                    Quits Spotify.
 spotify pause                                                   Pauses the current track.
+spotify lyrics                                                  Finds and displays lyrics for the current track.
 ```
 
 > note: `[]` represents that an argument/flag is optional, while `<>` represents that an argument/flag is required.
