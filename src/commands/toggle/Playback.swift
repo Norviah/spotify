@@ -16,7 +16,7 @@ struct Playback: ParsableCommand {
 
   /// The value to set playback to.
   @Argument(help: "The value to set to.")
-  var value: Bool = !(Spotify.State == "playing")
+  var value: Bool = !(Spotify.State == SpotifyState.PLAYING)
 
   /// Toggles playback for the current track.
   func run() {
