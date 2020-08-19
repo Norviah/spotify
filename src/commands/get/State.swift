@@ -11,7 +11,7 @@ import ArgumentParser
 struct State: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Displays the state that Spotify is in, one of: paused, stopped, or playing."
+    abstract: "Displays Spotify's current state: paused, stopped, or playing."
   )
 
   /// Prints the artist of the current track.
