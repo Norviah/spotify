@@ -21,8 +21,8 @@ In order to use most of the subcommands for the command `play`, you'll need to c
 The config file must be `JSON` with the format being:
 ```
 {
-"CLIENT_ID": "[token]",
-"CLIENT_SECRET": "[token]"
+  "CLIENT_ID": "[token]",
+  "CLIENT_SECRET": "[token]"
 }
 ```
 
@@ -30,8 +30,8 @@ For example:
 
 ```
 {
-"CLIENT_ID": "1as2d3a4s5gr67th8ref7asf6awfe5fe",
-"CLIENT_SECRET": "1as2d3a4s5gr67th8ref7asf6awfe5fe"
+  "CLIENT_ID": "1as2d3a4s5gr67th8ref7asf6awfe5fe",
+  "CLIENT_SECRET": "1as2d3a4s5gr67th8ref7asf6awfe5fe"
 }
 ```
 
