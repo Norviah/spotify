@@ -11,7 +11,7 @@ import ArgumentParser
 struct TrackNumber: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets the index of the current track from it's album."
+    abstract: "Displays the index of the current track from it's album."
   )
 
   /// Prints the position of the current track from it's album.

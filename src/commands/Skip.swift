@@ -11,7 +11,7 @@ import ArgumentParser
 struct Skip: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Skips to the next track."
+    abstract: "Skips the current track."
   )
 
   /// Skips the current playing track.

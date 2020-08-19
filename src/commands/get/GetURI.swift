@@ -14,7 +14,7 @@ struct GetURI: ParsableCommand {
     commandName: "uri",
 
     // Optional abstracts and discussions are used for help output.
-    abstract: "Gets the URI of the current track."
+    abstract: "Displays the URI of the current track."
   )
 
   /// Prints the URI of the current track.

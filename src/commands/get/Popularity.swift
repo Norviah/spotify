@@ -11,7 +11,7 @@ import ArgumentParser
 struct Popularity: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Gets a value ranging from 0 to 100 representing how popular the current track is."
+    abstract: "Displays a value ranging from 0 to 100 representing how popular the current track is."
   )
 
   /// Prints a value representing how popular the current track is.

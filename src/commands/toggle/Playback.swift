@@ -11,7 +11,7 @@ import ArgumentParser
 struct Playback: ParsableCommand {
   static let configuration: CommandConfiguration = CommandConfiguration(
     // Optional abstracts and discussions are used for help output.
-    abstract: "Toggle or set playback for the current track."
+    abstract: "Toggle or set playback of the current track."
   )
 
   /// The value to set playback to.

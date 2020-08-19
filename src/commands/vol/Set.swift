@@ -11,7 +11,7 @@ import ArgumentParser
 struct Set: ParsableCommand {
   // Optional abstracts and discussions are used for help output.
   static let configuration: CommandConfiguration = CommandConfiguration(
-    abstract: "Sets Spotify's volume to the given amount [0-100]."
+    abstract: "Sets the volume to the given amount [0-100]."
   )
 
   /// The amount to set Spotify's volume to.

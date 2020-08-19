@@ -11,7 +11,7 @@ import ArgumentParser
 struct Get: ParsableCommand {
   static let configuration: CommandConfiguration = CommandConfiguration(
     // Optional abstracts and discussions are used for help output.
-    abstract: "Get various aspects of the current track.",
+    abstract: "Display various aspects of the current track.",
 
     // Pass an array to `subcommands` to set up a nested tree of subcommands.
     // With language support for type-level introspection, this could be
