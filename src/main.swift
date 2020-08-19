@@ -21,7 +21,7 @@ struct Interface: ParsableCommand {
     // The current version for this tool.
     // TODO: Find a way to get the version from version.txt.
     version: "v1.0.0",
-    
+
     // An array of subcommands for the cli.
     subcommands: [Play.self, Skip.self, Prev.self, Replay.self, Quit.self, Pause.self, Vol.self, Toggle.self, Get.self, Jump.self, Lyrics.self]
   )

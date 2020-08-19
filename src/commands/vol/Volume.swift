@@ -15,7 +15,7 @@ struct Vol: ParsableCommand {
 
     // A more longer description for this command.
     discussion: "If no subcommands are provided, the current volume amount will be printed.",
-    
+
     // An array of subcommands for this command.
     subcommands: [Up.self, Down.self, Set.self]
   )
