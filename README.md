@@ -77,7 +77,7 @@ spotify get uri                                             Displays the URI of 
 spotify get shuffle                                         Displays whether shuffle is enabled.
 spotify get repeat                                          Displays whether repeat is enabled.
 spotify get position                                        Displays your position in the current track (in seconds).
-spotify get state                                           Displays the state that Spotify is in, one of: paused, stopped, or playing.
+spotify get state                                           Displays Spotify's current state: paused, stopped, or playing.
 
 spotify skip                                                Skips the current track.
 spotify prev                                                Replays the previous track.
