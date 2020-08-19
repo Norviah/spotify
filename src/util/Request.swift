@@ -58,8 +58,8 @@ func request(url: String, method: HTTPMethods, headers: [String: String]?, body:
   // Once we have set the properties for the request, we can call it via URLSession
   let task: URLSessionDataTask = URLSession.shared.dataTask(with: request) { data, _, error in
     // If an error occurred, we'll throw it, as an error shouldn't occur.
-    if let error = error {
-      raise(error: "An unknown error occurred: \(error), please try again.")
+    if error != nil {
+      raise(error: "An unknown error occurred, please try again.")
     }
 
     // If the call was successful, we'll set the result to the given response to a string.
