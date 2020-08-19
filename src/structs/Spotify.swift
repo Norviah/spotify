@@ -9,7 +9,7 @@
 /// A simple module to talk to Spotify via AppleScript.
 struct Spotify {
   /// Represents the state that Spotify is in (paused/stopped/playing).
-  public static let State: String? = Get(key: "player state", type: "string")
+  public static let State: SpotifyState = SpotifyState(rawValue: Get(key: "player state", type: "string")!.uppercased())!
 
   /// Represents information for the current playing track.
   public static let Track: SpotifyTrack = SpotifyTrack()
