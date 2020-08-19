@@ -1,5 +1,5 @@
 //
-//  applescript.swift
+//  AppleScript.swift
 //  spotify
 //
 //  Created by Norviah on 8/10/20.
