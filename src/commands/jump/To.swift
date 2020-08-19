@@ -37,7 +37,7 @@ struct To: ParsableCommand {
 
     // Ensure that a valid position is given.
     guard self.position <= duration else {
-      raise(error: "The given position \(self.position) is out of bounds, as the current track is \(duration) seconds long.")
+      raise(error: "The given position \(self.position) is out of bounds, as the current track is \(duration / 1000) seconds long.")
     }
 
     Spotify.Set(key: "player position", to: String(self.position))
