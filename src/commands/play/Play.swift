@@ -16,9 +16,7 @@ struct Play: ParsableCommand {
     // A more longer description for this command.
     discussion: "If no subcommands are provided, playback for the current track is resumed.",
 
-    // Pass an array to `subcommands` to set up a nested tree of subcommands.
-    // With language support for type-level introspection, this could be
-    // provided by automatically finding nested `ParsableCommand` types.
+    // An array of subcommands for this command.
     subcommands: [Album.self, Track.self, List.self, Artist.self, URI.self]
   )
 

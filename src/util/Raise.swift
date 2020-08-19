@@ -1,5 +1,5 @@
 //
-//  raise.swift
+//  Raise.swift
 //  spotify
 //
 //  Created by Norviah on 8/14/20.

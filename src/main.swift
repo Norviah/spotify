@@ -18,11 +18,11 @@ struct Interface: ParsableCommand {
     // Optional abstracts and discussions are used for help output.
     abstract: "A command line interface for Spotify.",
 
-    // The current version for this program.
+    // The current version for this tool.
     // TODO: Find a way to get the version from version.txt.
     version: "v1.0.0",
     
-    // An array of supported subcommands.
+    // An array of subcommands for the cli.
     subcommands: [Play.self, Skip.self, Prev.self, Replay.self, Quit.self, Pause.self, Vol.self, Toggle.self, Get.self, Jump.self]
   )
 }

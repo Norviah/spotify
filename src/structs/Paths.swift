@@ -1,5 +1,5 @@
 //
-//  paths.swift
+//  Paths.swift
 //  spotify
 //
 //  Created by Norviah on 8/12/20.

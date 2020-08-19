@@ -1,5 +1,5 @@
 //
-//  config.swift
+//  Config.swift
 //  spotify
 //
 //  Created by Norviah on 8/11/20.

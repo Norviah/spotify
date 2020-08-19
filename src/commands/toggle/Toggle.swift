@@ -13,9 +13,7 @@ struct Toggle: ParsableCommand {
     // Optional abstracts and discussions are used for help output.
     abstract: "Toggle or set various aspects of Spotify.",
 
-    // Pass an array to `subcommands` to set up a nested tree of subcommands.
-    // With language support for type-level introspection, this could be
-    // provided by automatically finding nested `ParsableCommand` types.
+    // An array of subcommands for this command.
     subcommands: [Playback.self, Shuffle.self, Repeat.self]
   )
 }

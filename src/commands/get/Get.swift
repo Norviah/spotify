@@ -13,9 +13,7 @@ struct Get: ParsableCommand {
     // Optional abstracts and discussions are used for help output.
     abstract: "Display various aspects of the current track.",
 
-    // Pass an array to `subcommands` to set up a nested tree of subcommands.
-    // With language support for type-level introspection, this could be
-    // provided by automatically finding nested `ParsableCommand` types.
+    // An array of subcommands for this command.
     subcommands: [
       GetArtist.self,
       GetAlbum.self,
