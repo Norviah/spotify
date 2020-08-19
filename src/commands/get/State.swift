@@ -16,6 +16,6 @@ struct State: ParsableCommand {
 
   /// Prints the artist of the current track.
   func run() {
-    print(Spotify.State ?? "[unknown]")
+    print(Spotify.State)
   }
 }
