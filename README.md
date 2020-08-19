@@ -8,7 +8,7 @@ A command line interface used to control Spotify for OS X, `spotify` uses `Apple
 brew install norviah/formulae/spotify
 ```
 
-If you have installed the application Spotify via `brew cask`, `brew` may not link `spotify` to your `PATH`, to fix this, you have to link it manually
+If you have installed the application Spotify via `brew cask`, `brew` may not link `spotify` to your `PATH`, to fix this, you have to link it manually by doing:
 
 ```
 brew link spotify
