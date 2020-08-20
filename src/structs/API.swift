@@ -80,6 +80,6 @@ struct API: Decodable {
     // array containing the URI of each found item.
     let matches: [Substring] = match(pattern: "spotify:\(type.lower):[a-zA-Z0-9]+", string: response)
 
-    return matches.indices.contains(0) ? matches[0] : nil;
+    return matches.indices.contains(0) ? matches[0] : nil
   }
 }
