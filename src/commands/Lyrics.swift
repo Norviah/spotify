@@ -14,7 +14,7 @@ struct Lyrics: ParsableCommand {
     abstract: "Finds lyrics for the current track.",
 
     // A more longer description for this command.
-    discussion: "This command won't necessarily find the lyrics for the current track as it uses https://makeitpersonal.co/ to find lyrics. They don't have lyrics for most, atleast relatively new, songs, albeit it is free and doesn't require an application."
+    discussion: "This command won't necessarily find the lyrics for the current track as it uses https://makeitpersonal.co/ to find lyrics. They don't have lyrics for most, atleast relatively new, tracks, albeit it is free and doesn't require an application."
   )
 
   /// Ensures that Spotify has a track active.
@@ -40,7 +40,7 @@ struct Lyrics: ParsableCommand {
     // TODO: Find a better API for lyrics, preferably one that is free and doesn't require an application.
 
     /// We'll use https://makeitpersonal.co to try to find lyrics, from my experience, they don't
-    /// have the lyrics of a lot of, atleast relatively recent, songs, but, it is free and
+    /// have the lyrics of a lot of, atleast relatively recent, tracks, but, it is free and
     /// doesn't require users to create an application so it'll work for now.
     let lyrics: String = request(url: "https://makeitpersonal.co/lyrics", method: .GET, headers: nil, body: nil, query: query)
 
