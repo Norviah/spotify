@@ -29,12 +29,12 @@ struct Backward: ParsableCommand {
   /// Jumps behind the given amount in the given track.
   func run() {
     // We'll get the duration of the current track to ensure
-    // that Spotify is currently playing a song.
+    // that Spotify is currently playing a track.
     guard let amount = Spotify.Track.Duration, let _ = Int(amount) else {
       raise(error: "Spotify isn't currently playing a track.")
     }
 
-    // Once we're sure that a song is playing, we'll get the player position and
+    // Once we're sure that a track is playing, we'll get the player position and
     // cast it as an integer, as if you don't, a floating number will be used.
     let position: Int = Int(Spotify.Get(key: "player position", type: "integer")!)!
 
