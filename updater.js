@@ -21,6 +21,9 @@ function writeVersion(current, version) {
   // Set the new version of the project within the main script for this project.
   execSync(`sed -i '' 's/${current.trim()}/${version.trim()}/g' ./src/main.swift`);
 
+  // We'll also add the the main script into the commit.
+  execSync('git add ./src/main.swift')
+
   // We have to return the new version, as standard-version will overwrite the
   // version file with the new bumped version.
   return version;
