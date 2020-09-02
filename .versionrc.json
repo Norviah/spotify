@@ -2,7 +2,8 @@
   "bumpFiles": [
     {
       "filename": "version.txt",
-      "type": "plain-text"
+      "type": "plain-text",
+      "updater": "updater.js"
     }
   ],
   "header": "",
