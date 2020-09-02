@@ -1,4 +1,18 @@
 
+### [1.1.1](https://github.com/norviah/spotify/compare/v1.1.0...v1.1.1) (2020-09-02)
+
+
+### Bug Fixes
+
+* update version ([f80054e](https://github.com/norviah/spotify/commit/f80054e114a8eb62f247ec51d28f6521f6365112))
+
+
+### Build System
+
+* add the main script into the standard-version's commit when releasing ([e8a2666](https://github.com/norviah/spotify/commit/e8a2666bf974c2f0bfe616a7735c46a099aee61e))
+* use an update script to set the new version for the cli and project ([9c4f5e8](https://github.com/norviah/spotify/commit/9c4f5e8c78a4b6fcb456df0236f9ef3037bbeb6d))
+* use an update script to set the new version for the cli and project ([d0ce62e](https://github.com/norviah/spotify/commit/d0ce62ece6adcc8aa57e3de529ed01ead13fd0b5))
+
 ## [1.1.0](https://github.com/Norviah/spotify/compare/v1.0.0...v1.1.0) (2020-09-02)
 
 
