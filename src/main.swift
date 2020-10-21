@@ -28,7 +28,7 @@ struct Interface: ParsableCommand {
 }
 
 // Before continuing, ensure that the user has Spotify installed.
-guard FileManager.default.fileExists(atPath: "/Applications/Spotify.app") else {
+guard Spotify.Installed else {
   raise(error: "Spotify must be installed to use this tool.")
 }
 

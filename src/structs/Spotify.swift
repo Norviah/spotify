@@ -14,6 +14,9 @@ struct Spotify {
   /// Represents information for the current playing track.
   public static let Track: SpotifyTrack = SpotifyTrack()
 
+  /// Determines if Spotify is installed as an application.
+  public static var Installed: Bool { !shell(script: "mdfind \"kMDItemKind == Application\" | grep Spotify").isEmpty }
+
   /// Set the constructor to private so an AppleScript
   /// instance can't accidentally be initialized.
   private init() {}
